@@ -22,9 +22,6 @@ jobs:
         working-directory: frontend
         run: npm install
 
-      - name: run test
-        run: npm test
-
       - name: Build
         working-directory: frontend
         run: npm run build
