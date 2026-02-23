@@ -25,3 +25,6 @@ jobs:
       - name: Build
         working-directory: frontend
         run: npm run build
+
+      - name: Use secret
+        run: echo ${{secrets.MY_SECRET}}
